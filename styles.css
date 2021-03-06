@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-family: "Open sans";
+    font-size: 1.23vw;
+    font-weight: 400;
+    color: white;
+    padding-top: 1.5vw;
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.backgroundImg {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+}
+
+button {
+    width: 15vw;
+    height: 4vw;
+    margin-top: 2vw;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.3vw;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 7px #000;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+header {
+    padding: 4% 7% 2.5%;
+}
+
+.mobile {
+    width: 20%;
+}
+
+.container {
+    /*background-color: greenyellow;*/
+    display: flex;
+    width: 100%;
+    padding: 0% 7% 0%;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.contentLeft {
+    width: 57%;
+    height: auto;
+    margin: 2% 0%;
+}
+
+.contentRight {
+    width: 43%;
+    height: auto;
+    margin: 2%;
+}
+
+.paddingContent {
+    padding-top: 2vw;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 8vw;
+}
+
+.socialCircle {
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    border: 0.15vw solid white;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: transparent;
+    width: 3vw;
+    height: 3vw;
+    margin: auto 0 auto auto;
+    font-family: Tahoma;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 0.2vw;
+    color: white;
+    font-weight: bold;
+}
+
+.twitterMargin {
+    margin: 0 1vw;
+}
+
+.twitter {
+    width: 2vw;
+    height: 2vw;
+    margin: 0.5vw;
+}
+
+.instagram {
+    width: 2vw;
+    height: 2vw;
+    margin: 0.45vw;
+}
+
+@media only screen and (max-width: 375px) {
+    header {
+        padding: 7% 5% 15%;
+    }
+
+    .mobile {
+        width: 50%;
+        height: 50%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0% 7% 0%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .contentLeft {
+        width: 100%;
+    }
+    
+    .contentRight {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+    
+    p {
+        padding-top: 5vw;
+        padding-bottom: 8vw;
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    button {
+        width: 60vw;
+        height: 12vw;
+        font-size: 5vw;
+        box-shadow: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .socials {
+        padding-right: 0;
+        width: 50%;
+        float: none;
+        margin: 5vw auto;
+    }
+
+    .socialCircle {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .facebook {
+        font-size: 7vw;
+        margin: auto;
+    }
+
+    .twitter {
+        width: 6vw;
+        height: 6vw;
+        margin: 1.7vw;
+    }
+    
+    .instagram {
+        width: 6vw;
+        height: 6vw;
+        margin: 1.7vw;
+    }
+
+    .positionsM {
+        margin: 0 auto;
+    }
+}
